@@ -1,0 +1,14 @@
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.row.section{
+    padding: var(--section-tb-padding) 0;
+}
+
+.row .container {
+    width: 100%;
+    max-width: var(--general-max-width);
+}
