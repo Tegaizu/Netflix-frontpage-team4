@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+
+h3{
+    color: white;
+}
+h2{
+    color: white;
+}
+
+
+a{
+    color: white;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.colonne{
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    margin: 8px;
+    
+}
