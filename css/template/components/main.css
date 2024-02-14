@@ -5,6 +5,7 @@
 
 body {
     background-color: black;
+    font-family: "Roboto", sans-serif;
 }
 
 h2 {
@@ -12,6 +13,7 @@ h2 {
     font-size: 3rem;
     width: 100%;
     margin-bottom: 10px;
+    font-weight: 900;
 }
 
 p {
@@ -19,6 +21,7 @@ p {
     font-size: 1.5rem;
     width: 100%;
     line-height: 30px;
+    font-weight: 400;
 }
 
 .titolo {
@@ -30,8 +33,72 @@ p {
 
 .divider {
     width: 100%;
-    height: 10px;
+    height: 7px;
     background-color: var(--color-divider);
 }
 
 
+video {
+    z-index: -1;
+    overflow: hidden;
+    position: relative;
+}
+
+.video1 {
+    top: -385px;
+    left: 85px;
+    width: 465px;
+} 
+
+.video2 {
+    top: -468px;
+    left: 120px;
+    width: 400px;
+    height: 300px;
+}
+
+.blu {
+    color: #0071eb;
+}
+
+.gif {
+    width: 320px;
+    height: 103px;
+    padding: 0.5rem 0.75rem;
+    display: flex;
+    top: -165px;
+    position: relative;
+    left: 144px;
+    background-color: black;
+    border: 1px solid gray;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.testo p {
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.testo p:first-child {
+    font-weight: bold;
+}
+
+.ultima {
+    width: 65px;
+}
+
+.testo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.gifs {
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+}

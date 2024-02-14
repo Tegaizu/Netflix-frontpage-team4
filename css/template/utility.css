@@ -9,3 +9,7 @@
 .flex.flex-column{
     flex-direction: column;
 }
+
+.h435 {
+    height: 435px;
+}
