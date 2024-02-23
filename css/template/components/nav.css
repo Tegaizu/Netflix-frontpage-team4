@@ -1,3 +1,142 @@
-nav .nav__logo img{
+header {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/ef88d172-e29c-4474-96b8-ba5df0c70388/IT-it-20240115-trifectadaily-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+header .header__overlay {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+
+header .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+    /* Adjust this value according to your navbar height */
+}
+
+.neck {
+    text-align: center;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 1%;
     
+}
+
+nav {
+    color: white;
+    padding: 24px 48px;
+    width: 100%;
+    height: 44px;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    z-index: 9;
+}
+
+nav .nav__logo img {
+    width: 150px;
+    height: auto;
+    margin-right: auto;
+}
+
+
+.nav__btn-actions {
+    display: flex;
+    align-items: center;
+}
+
+.nav__btn-actions select {
+    margin-right: 10px;
+}
+
+/* .login-btn {
+
+} */
+
+.nav__btn-login {
+        background-color: var(--color-primary);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+button {
+    height: 50px;
+    width: 130px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+    border-color: white;
+    border: 4px;
+    margin-left: 10px;
+}
+
+.bottone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email {
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(31, 28, 46);
+    font-size: medium;
+    border-color: white;
+    border: 4px;
+}
+
+.ads {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    background: rgb(
+        14,
+        27,
+        79
+    );
+    background: radial-gradient(
+        51.39% 511.66% at 47.68% -217.91%,
+        #ff9900 0%,
+        #e50914 17.27%,
+        #0e1b4f 79.44%,
+        #000413 100%
+    );
+    box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin: 0 74px;
+    color: white;
+    padding: 22px;
+    width: 100%;
+    margin-left: 0;
 }
