@@ -5,3 +5,11 @@
 .flex.justify-between{
     justify-content: space-between;
 }
+
+.flex.flex-column{
+    flex-direction: column;
+}
+
+.h435 {
+    height: 435px;
+}
